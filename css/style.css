@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+/*
+
+Tipografias
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+header{
+    display: flex;
+    height: 80px;
+    background-color: rgb(255, 80, 80);
+    justify-content:space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    margin: 20px;
+    height: 80px;
+    width: 100%;
+    gap: 4.25rem;
+    padding-right: 1.25rem;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family: 'Merriweather', serif;
+
+} 
+
+.navbar li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+/*Logo en la navbar*/
+.logo{
+    height: 80px;    
+}
+
+
+/*1er Lorem en la pagina de inicio*/
+.contenedor{
+    align-self: center;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+
+/*Titulo del 2do Lorem en la pagina de inicio*/
+
+.contenedor2 h1{
+    align-self: center;
+    margin-left: 10px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*2do Lorem en la pagina de inicio (texto)*/
+.contenedor2 p{
+    align-self: center;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/*Imagen de la paginia de inicio, al ppio*/
+.imagen-inicio{
+    display:flex;
+    margin-left: 300px;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+
+/*Imagen de la paginia de inicio (logo - que esta arriba del footer)*/
+.imagen-inicio2{
+    display:flex;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+
+/*Texto que esta abajo, justo arriba del footer*/
+.texto-inicio{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 90px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Texto que esta en el medio de la pagina (10 años de experiencia...)*/
+.principal{
+    display: flex;
+    background-color: blue;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Imagen del logo que esta arriba del footer*/
+.logo2{
+    display: flex;
+    padding-left: 900px;
+}
+
+
+
+/* .texto-main{
+    width: 500px;
+    height: 500px;
+}
+
+.texto-main p{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 90px;
+}
+
+.texto-main h1 {
+    padding-top: 150px;
+    padding-left: 200px;   
+} */
+
+
+/*Footer*/
+.footer-container{
+    display: flex;    
+    justify-content: center;
+    background-color: blue;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Foto del estudio en la pag ESTUDIO*/
+
+.estudio-foto{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin-top: 10px;
+    position: relative;
+    margin-left: 300px;
+}
+
+
+/*Texto que esta en ESTUDIO*/
+.estudio-conocenos{
+    color: rgb(0, 1, 0);
+    position: relative;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 100px;
+}
+
+/*El  titulo que esta en ESTUDIO*/
+.estudio-conocenos h2{
+    color: red;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*El  texto que esta en ESTUDIO*/
+.estudio-conocenos p{
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Imagen ppal en CLIENTES*/
+.imagen-clientes{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-left: 220px;
+}
+
+/*Lista de tipo de clientes*/
+.lista-clientes{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+/*Lista de tipo de clientes*/
+.lista-clientes li{
+    padding: 30px;
+    list-style: inside;
+    color: purple;
+    font-size: 20px;
+}
+
+/*1ra imagen en SERVICIOS*/
+.serv1{
+    width: 400px;
+}
+
+/*1er div en SERVICIOS*/
+.servicios1{
+    display:flex;
+    margin-left: 300px;
+}
+
+/* .textos{
+    align-self: center;
+    font-family: 'Merriweather', serif;
+} */
+
+/*2da imagen en SERVICIOS*/
+.serv2{
+    width: 400px;
+}
+
+/*2do div en SERVICIOS*/
+.servicios2{
+    display:flex;
+    margin-left: 300px;
+}
+
+/* .textos{
+    align-self: center;
+} */
+
+/*3ra imagen en SERVICIOS*/
+.serv3{
+    width: 400px;
+}
+
+/*3er div en SERVICIOS*/
+.servicios3{
+    display:flex;
+    margin-left: 300px;
+}
+
+/* .textos{
+    align-self: center;
+    margin-left: 50px;
+} */
+
+/*4ta imagen en SERVICIOS*/
+.serv4{
+    width: 400px;
+}
+
+/*4to div en SERVICIOS*/
+.servicios4{
+    display:flex;
+    margin-left: 300px;
+}
+
+/* .textos{
+    align-self: center;
+} */
+
+
+/*5ta imgen en SERVICIOS*/
+.serv5{
+    width: 400px;
+}
+
+/*5to div en SERVICIOS*/
+.servicios5{
+    display:flex;
+    margin-left: 300px;
+}
+
+.textos{
+    align-self: center;
+    margin-left: 50px;
+}
+
+
+/* .body {
+font-family: Arial, Helvetica, sans-serif;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+} */
+
+/*Formulario en CONTACTO*/
+.form {
+padding: 50px 55px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+text-align: center;
+width: 340px;
+}
+
+/*Formulario en CONTACTO*/
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/*Palabra CONTACTO en conatcto*/
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*Formulario en CONTACTO*/
+label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/*Formulario en CONTACTO*/
+input, textarea {
+   padding: 17px 25px;
+   border-radius: 25px;
+   margin-bottom: 20px;
+   background-color: aliceblue;
+   border: 2px solid #f0faff;
+   color:rgb(1, 0, 1);
+   outline: none;
+}
+/*Formulario en CONTACTO*/
+input::placeholder, textarea::placeholder {
+color: #030e03;
+}
+
+/*Formulario en CONTACTO*/
+.form-txt {
+    margin-bottom: 30px;    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/*Formulario en CONTACTO*/
+.form-txt a{
+    color: #76b28e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*Formulario en CONTACTO*/
+.bnt{
+    font-size: 16px;
+    color:#1a0303;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    cursor: pointer;
+}
+
+/*Formulario en CONTACTO*/
+.btn:hover {
+    background-color: #50e04b;
+}
+
+/*Formulario en CONTACTO*/
+@media(max-width:991px){
+    
+    body {
+        padding: 30px;
+    }
+
+    input {
+        padding: 15px;
+    }
+}
+
+/*Tamaño del formulario*/
+form{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 100px;
+}
+
+/*Imagen del mensaje en CONTACTO*/
+.contacto img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin-left: 650px;
+}
+/*Pablabra CONTACTO en la pag CONTACTO*/
+.contacto-font{
+    color: red;
+    font-size: 40px;
+}
+
+/*Formato de la lista que aparece en el footer de las paginas*/
+.datos ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 1px;
+    color: #FFFFFF;
+}
+
+/*Formato de los titulos en SERVICIOS*/
+.textos h2{
+    font-size: 30px;
+    color: black;
+}
+
+
+/*Formato de los textos en SERVICIOS*/
+.textos p{
+    font-size: 20px;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+
