@@ -310,11 +310,9 @@ font-family: 'Poppins', sans-serif;
 
 /*4ta imagen en SERVICIOS*/
 .serv4{
-    display: flex;
-    width: 100px;
-    height: 100px;
-    
-}
+     display: flex;
+     width: 50px;
+    }
 
 /*4to div en SERVICIOS*/
 .servicios4{
