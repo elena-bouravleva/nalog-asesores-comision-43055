@@ -309,16 +309,16 @@ font-family: 'Poppins', sans-serif;
 } */
 
 /*4ta imagen en SERVICIOS*/
-.serv4{
+/* .serv4{
      display: flex;
      width: 50px;
-    }
+    } */
 
 /*4to div en SERVICIOS*/
-.servicios4{
+/* .servicios4{
     display:flex;
     margin-left: 10px;
-}
+} */
 
 .contenedor div{
     justify-content: space-between;
